@@ -1,0 +1,109 @@
+#calendar{
+	width: 360px;
+}
+#calendar #headerCalendar>div{
+	width: 100%;
+}
+#calendar #headerCalendar>div div{
+	float: left;
+	cursor: pointer;
+	text-align: center;
+}
+#calendar #headerCalendar>div #ny,#calendar #headerCalendar>div #py,#calendar #headerCalendar>div #nm,#calendar #headerCalendar>div #pm{
+	width: 10%;
+}
+#calendar #headerCalendar #month,#calendar #headerCalendar #year{
+	width: 80%;
+}
+#calendar #headerCalendar #ny:before,#calendar #headerCalendar #nm:before{
+	content:"\25b6";
+	text-align: right;
+}
+
+#calendar #headerCalendar #py:before,#calendar #headerCalendar #pm:before{
+	content:"\25C0";
+	text-align: left;
+}
+#calendar #headerCalendar #blockYear #ny,#calendar #headerCalendar #blockYear #py{
+	color: #000;
+	text-shadow:none;
+}
+#calendar #headerCalendar #blockYear:hover #ny,#calendar #headerCalendar #blockYear:hover #py{
+	color: #fff;
+}
+#calendar #headerCalendar{
+	background-color: #000;
+	color: #fff;
+	text-shadow:1px 1px 1px #fff;
+	overflow: hidden;
+	vertical-align: middle;
+}
+#calendar #calendarForm>div{
+	overflow: hidden;
+	width: 100%
+}
+#calendar #calendarForm> div div{
+	width: 14%;
+	float: left;
+	text-align: center;
+	overflow: hidden;
+}
+#calendar #calendarForm #titleCalendar{
+	font-weight: bold;
+	text-shadow:1px 1px 1px #cecece;
+}
+#calendar #calendarForm #titleCalendar>div{
+	margin-left: 1px;
+}
+#calendar #calendarForm .bodyCalendar{
+	box-shadow: 1px 1px 1px #666;
+	border-top: 1px solid #fff;
+}
+#calendar #calendarForm .bodyCalendar>div{
+	border-top: 1px solid #666;
+	border-left: 1px solid #666;
+	cursor: pointer;
+	box-shadow: 1px 1px 1px #666;
+}
+#calendar #calendarForm .bodyCalendar>div>span{
+	text-shadow:1px 1px 1px #fff;
+}
+#calendar #calendarForm .bodyCalendar>div:hover{
+	background: #000;
+	color: #fff;
+}
+#calendar .bodyCalendar>div#today{
+	background: #8c8c99;
+	color: #fff;
+}
+#calendar .inMonth{
+	background: #bbb;
+}
+#calendar .bodyCalendar .active,#calendar #calendarForm .bodyCalendar>div.active:hover{
+	background: red;
+
+}
+#calendar .hasReminder {
+	background:blue;
+}
+#calendar .hasReminder:before {
+	content:"\2605";
+}
+#calendar>div{
+	width: 100%;
+	margin: 10px 0;
+}
+#calendar .block{
+	margin: 10px;
+	border:1px solid black;
+	padding:10px;
+	border-radius: 10px ;
+}
+#calendar #datetime{
+	text-align: center;
+	margin-top: 10px;
+}
+
+
+
+
